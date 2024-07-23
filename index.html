@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="left">
+            <div class="top">
+                <div class="home-section">
+                    <img class="svg" src="images/home.svg" alt="" width="6%">
+                    <span>Home</span>
+                    <img class="svg cross" src="images/close.svg" alt="" width="6%">
+                </div>
+                <div class="home-section">
+                    <img class="svg" src="images/search.svg" alt="" width="6%">
+                    <span>Search</span>
+                </div>   
+            </div>
+            <div class="bottom">
+                <div class="lib">
+                    <div class="lib-left">
+                        <img class="svg" src="images/library.svg" alt="" width="15%">
+                        <span>Your Library</span>
+                    </div>
+                    <div class="lib-right">
+                        <img class="svg" src="images/plus.svg" alt="" width="20%">
+                        <img class="svg" src="images/arrow.svg" alt="" width="20%">
+                    </div>
+                </div>
+                <button class="btn">Playlists</button>
+                <div class="recent-box">
+                <div class="recent">
+                    <img class="svg" src="images/search.svg" alt="" width="5%">
+                    <div class="recent-left">
+                        <span>Songs</span> 
+                        <img class="svg" src="images/hamburger.svg" alt="" width="14%">
+                    </div>
+                </div>
+                <div class="recent-song">
+                    
+                    <!-- <div class="liked">
+                        <img src="images/SE.png" alt="" width="13%">
+                        <div class="lsong">
+                            <span></span>
+                            <div class="detail">
+                                <img src="images/pin.svg" alt="" width="4%">
+                                <span>Saved & downloaded episodes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="liked">
+                        <img src="images/ariana.jpeg" alt="" width="13%">
+                        <div class="lsong">
+                            <span></span>
+                            <div class="detail">
+                                <span>Playlist.Spotify</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="liked">
+                        <img src="images/trend.jpeg" alt="" width="13%">
+                        <div class="lsong">
+                            <span></span>
+                            <div class="detail">
+                                <span>Playlist.Spotify</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="liked">
+                        <img src="images/trend.jpeg" alt="" width="13%">
+                        <div class="lsong">
+                            <span></span>
+                            <div class="detail">
+                                <span>Playlist.Spotify</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="liked">
+                        <img src="images/trend.jpeg" alt="" width="13%">
+                        <div class="lsong">
+                            <span></span>
+                            <div class="detail">
+                                <span>Playlist.Spotify</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                </div>
+                <div class="foot"> © 2024 Spotify AB</div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="right">
+            <div class="nav">
+                <div class="header">
+                    
+                    <div class="header-left">
+                        <img class="svg ham" src="images/hamburger.svg" alt="" width="4%">
+                        <div class="l">
+                            <img class="svg" src="images/left.svg" alt="" width="50%">
+                        </div>
+                        <div class="l">
+                            <img class="svg" src="images/right.svg" alt="" width="50%">
+                        </div>
+                    </div>
+                    <div class="header-right">
+                        <div>Sign Up</div>
+                        <div>Log In</div>
+                        <div><img class="svg" src="images/bell.svg" alt="" width="70%"></div>
+                        <div class="A">A</div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button>All</button>
+                    <button>Music</button>
+                    <button>Podcasts</button>
+                </div>
+            </div>
+            <div class="main">
+                <h2>Made For You</h2>
+                <div class="episodes">
+                    <!-- <div data-folder="hindi" class="card">
+                        <img src="images/podcast.jpeg" alt="" width="90%">
+                        <span>Daily Mix 1</span>
+                        <span>Pritam, Atif Aslam, Arijit Singh and more</span>
+                        <div class="play">
+                            <img src="images/play.svg" alt="" width="55%">
+                        </div>
+                    </div>
+                    <div data-folder="punjabi" class="card">
+                        <img src="images/podcast2.jpeg" alt="" width="90%">
+                        <span>Daily Mix 2</span>
+                        <span>Diljit Dosanjh, Jass Manak, Imran Khan...</span>
+                        <div class="play">
+                            <img src="images/play.svg" alt="" width="55%">
+                        </div>
+                    </div>
+                    <div data-folder="English" class="card">
+                        <img src="images/podcast6.jpeg" alt="" width="90%">
+                        <span>Daily Mix 3</span>
+                        <span>One Direction</span>
+                        <div class="play">
+                            <img src="images/play.svg" alt="" width="55%">
+                        </div>
+                    </div>
+                    <div data-folder="hindi" class="card">
+                        <img src="images/podcast4.jpeg" alt="" width="90%">
+                        <span>Daily Mix 4</span>
+                        <span>Kishore Kumar</span>
+                        <div class="play">
+                            <img src="images/play.svg" alt="" width="55%">
+                        </div>
+                    </div>
+                    <div data-folder="punjabi" class="card">
+                        <img src="images/podcast5.jpeg" alt="" width="90%">
+                        <span>Daily Mix 5</span>
+                        <span>Sidhu Moosewala</span>
+                        <div class="play">
+                            <img src="images/play.svg" alt="" width="55%">
+                        </div>
+                    </div>
+                    <div data-folder="english" class="card">
+                        <img src="images/podcast3.jpeg" alt="" width="90%">
+                        <span>Daily Mix 6</span>
+                        <span>Shawn Mendes, Camilo Cabilla</span>
+                        <div class="play">
+                            <img src="images/play.svg" alt="" width="55%">
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            
+        </div>
+        <div class="taskbar">
+            <div class="music"><img class="svg" src="images/music.svg" alt="" width="30%"></div>
+            <div class="songInfo"></div>
+        
+            <div class="controls">
+                <div class="up">
+                    <img class="svg" src="images/shuffle.svg" alt="" width="3%">
+                    <img id="back" class="svg" src="images/back.svg" alt="" width="3%">
+                    <img id="play" class="svg" src="images/play.svg" alt="" width="3%">
+                    <img id="next" class="svg" src="images/forward.svg" alt="" width="3%">
+                    <img class="svg" src="images/loop.svg" alt="" width="3%">
+                </div>
+                <div class="down">
+                    <div class="circle"></div>
+                </div>
+                
+            </div>
+            <div class="side">
+                <div class="volume">
+                    <img class="svg" src="images/volume.svg" alt="" width="13%">
+                    <div class="range">
+                        <input type="range" name="volume">
+                    </div>
+                </div>
+                <div class="time"></div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
